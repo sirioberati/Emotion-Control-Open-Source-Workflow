@@ -14,25 +14,25 @@ Two supplied examples. Click a GIF to open the full MP4 with sound.
 <table>
 <tr><th>Courtroom performance</th><th>Emotional performance</th></tr>
 <tr>
-<td><a href="examples/videos/courtroom-performance.mp4"><img src="examples/previews/courtroom.gif" width="480" alt="Original courtroom performance, tracked clay mask, and generated result"></a></td>
+<td><a href="examples/videos/courtroom-preview.mp4"><img src="examples/previews/courtroom.gif" width="480" alt="Original courtroom performance, tracked clay mask, and generated result"></a></td>
 <td><a href="examples/videos/emotional-performance.mp4"><img src="examples/previews/emotional.gif" width="480" alt="Original emotional performance alongside the generated result"></a></td>
 </tr>
-<tr><td><a href="examples/videos/courtroom-performance.mp4">Watch full example ↗</a></td><td><a href="examples/videos/emotional-performance.mp4">Watch full example ↗</a></td></tr>
+<tr><td><a href="examples/videos/courtroom-preview.mp4">Watch full example ↗</a></td><td><a href="examples/videos/emotional-performance.mp4">Watch full example ↗</a></td></tr>
 </table>
 
 The generated appearances are demonstration results from a separate generation step. This repository builds the performance masks; it does not bundle a video-generation model or make paid API calls.
 
 ## The masks
 
-These are the actual video masks from the two example performances. GIFs are silent excerpts; full MP4s retain source audio. The full mask clips and edited example videos can have different durations.
+Two actual extracted masks: the smiling-man performance and the emotional-reaction performance. GIFs are silent excerpts; full MP4s retain source audio. The full mask clips and edited example videos can have different durations.
 
 <table>
-<tr><th>Courtroom mask</th><th>Emotional mask</th></tr>
+<tr><th>Expressive mask</th><th>Emotional mask</th></tr>
 <tr>
-<td><a href="examples/masks/courtroom-mask.mp4"><img src="examples/previews/courtroom-mask.gif" width="400" alt="Animated glossy clay courtroom mask with tracked green landmarks"></a></td>
+<td><a href="examples/masks/expressive-mask.mp4"><img src="examples/previews/expressive-mask.gif" width="400" alt="Animated glossy clay mask from the smiling-man performance with tracked green landmarks"></a></td>
 <td><a href="examples/masks/emotional-mask.mp4"><img src="examples/previews/emotional-mask.gif" width="400" alt="Animated glossy clay emotional mask with tracked green landmarks"></a></td>
 </tr>
-<tr><td><a href="examples/masks/courtroom-mask.mp4">Download mask MP4 ↗</a></td><td><a href="examples/masks/emotional-mask.mp4">Download mask MP4 ↗</a></td></tr>
+<tr><td><a href="examples/masks/expressive-mask.mp4">Download mask MP4 ↗</a></td><td><a href="examples/masks/emotional-mask.mp4">Download mask MP4 ↗</a></td></tr>
 </table>
 
 ## One pipeline

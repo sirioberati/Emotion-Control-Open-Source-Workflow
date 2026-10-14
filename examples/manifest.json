@@ -1,33 +1,5 @@
 [
   {
-    "file": "masks/courtroom-mask.mp4",
-    "bytes": 4553082,
-    "sha256": "1bb6340a65c355bcb30f9bbfa30f6ada2fcb7bfb96d45d9da2ce6f8f7b419cd0",
-    "media": {
-      "programs": [],
-      "stream_groups": [],
-      "streams": [
-        {
-          "codec_name": "h264",
-          "codec_type": "video",
-          "width": 512,
-          "height": 512,
-          "r_frame_rate": "30/1",
-          "nb_frames": "421"
-        },
-        {
-          "codec_name": "aac",
-          "codec_type": "audio",
-          "r_frame_rate": "0/0",
-          "nb_frames": "604"
-        }
-      ],
-      "format": {
-        "duration": "14.033333"
-      }
-    }
-  },
-  {
     "file": "masks/emotional-mask.mp4",
     "bytes": 6078339,
     "sha256": "d0ce7d393053a5b536bfeca782489dd4bc9ed90e7320b7359faf5ab5b480120c",
@@ -56,31 +28,37 @@
     }
   },
   {
-    "file": "previews/courtroom-mask.gif",
-    "bytes": 3963055,
-    "sha256": "2e9363f13c9993bb52c62e8abeecfa307a3ba35b6ff86ed736257fd8c450cf3a",
+    "file": "masks/expressive-mask.mp4",
+    "bytes": 5001665,
+    "sha256": "a19a752e3149a5ee4dc0401d615915443c4181e00043f3a751a66c1fbb98a901",
     "media": {
       "programs": [],
       "stream_groups": [],
       "streams": [
         {
-          "codec_name": "gif",
+          "codec_name": "h264",
           "codec_type": "video",
-          "width": 400,
-          "height": 400,
-          "r_frame_rate": "10/1",
-          "nb_frames": "60"
+          "width": 512,
+          "height": 512,
+          "r_frame_rate": "30/1",
+          "nb_frames": "644"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "nb_frames": "925"
         }
       ],
       "format": {
-        "duration": "6.000000"
+        "duration": "21.466667"
       }
     }
   },
   {
     "file": "previews/courtroom.gif",
-    "bytes": 4691142,
-    "sha256": "43770489a557e7d8f66714d193ae6d52f072c8de1ae79220ec9cb6ba8f89de6f",
+    "bytes": 7112003,
+    "sha256": "78985ad020384d99fdf866f2d49651536b3a532d1a7fb03da8de88f31f8fea18",
     "media": {
       "programs": [],
       "stream_groups": [],
@@ -91,11 +69,11 @@
           "width": 480,
           "height": 360,
           "r_frame_rate": "10/1",
-          "nb_frames": "60"
+          "nb_frames": "87"
         }
       ],
       "format": {
-        "duration": "6.000000"
+        "duration": "8.700000"
       }
     }
   },
@@ -144,6 +122,28 @@
     }
   },
   {
+    "file": "previews/expressive-mask.gif",
+    "bytes": 3926048,
+    "sha256": "a02b8620c10f3a343c3c94cb46af424ad2b023e109aa74778ee7351597986595",
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "gif",
+          "codec_type": "video",
+          "width": 400,
+          "height": 400,
+          "r_frame_rate": "10/1",
+          "nb_frames": "60"
+        }
+      ],
+      "format": {
+        "duration": "6.000000"
+      }
+    }
+  },
+  {
     "file": "videos/courtroom-performance.mp4",
     "bytes": 15908277,
     "sha256": "ddf015b77babcece78482de6e607df9fee38661725ce0fcee660e4bd208e33e1",
@@ -168,6 +168,34 @@
       ],
       "format": {
         "duration": "16.266667"
+      }
+    }
+  },
+  {
+    "file": "videos/courtroom-preview.mp4",
+    "bytes": 11297151,
+    "sha256": "1cbeaf700b90de713e75a1545dc8efd2a203d333d39ca2764e7359e664f27ce7",
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 1440,
+          "height": 1080,
+          "r_frame_rate": "30/1",
+          "nb_frames": "275"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "nb_frames": "377"
+        }
+      ],
+      "format": {
+        "duration": "8.692290"
       }
     }
   },
