@@ -79,8 +79,8 @@
   },
   {
     "file": "previews/emotional-mask.gif",
-    "bytes": 3890854,
-    "sha256": "2ecf9059988eedcc90b3170936367d9774cac30d39d1a0dd7fe6fd1681ffaa4c",
+    "bytes": 6418678,
+    "sha256": "d4f389568eca7fa84541e37ed38cb19af8a51c20254a7a26bb9340d87f5032e5",
     "media": {
       "programs": [],
       "stream_groups": [],
@@ -91,11 +91,11 @@
           "width": 400,
           "height": 400,
           "r_frame_rate": "10/1",
-          "nb_frames": "60"
+          "nb_frames": "100"
         }
       ],
       "format": {
-        "duration": "6.000000"
+        "duration": "10.000000"
       }
     }
   },
