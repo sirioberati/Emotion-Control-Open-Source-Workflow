@@ -29,11 +29,27 @@ The generated appearances are demonstration results from a separate generation s
 
 Two actual extracted masks: the smiling-man performance and the emotional-reaction performance. GIFs are silent excerpts; full MP4s retain source audio. The full mask clips and edited example videos can have different durations.
 
-### Expressive mask
+### Expressive performance — original → mask → Sirio
+
+The matching original is the source recorded in this mask's run manifest. The generated result is the supplied Seedance video.
+
+**Original performance**
+
+[![Original performance used to extract the expressive mask](examples/previews/expressive-original.gif)](examples/videos/expressive-original.mp4)
+
+[Watch original video ↗](examples/videos/expressive-original.mp4)
+
+**Tracked mask**
 
 [![Animated glossy clay mask from the smiling-man performance](examples/previews/expressive-mask.gif)](examples/masks/expressive-mask.mp4)
 
 [Download mask MP4 ↗](examples/masks/expressive-mask.mp4)
+
+**Sirio — generated result**
+
+[![Sirio's generated performance from the supplied Seedance video](examples/previews/expressive-sirio.gif)](examples/videos/expressive-sirio.mp4)
+
+[Watch Sirio's video ↗](examples/videos/expressive-sirio.mp4)
 
 ### Emotional mask — transition into crying
 
@@ -62,6 +78,8 @@ flowchart LR
 - **Useful exports:** isolated mask, source/mask comparison, detail/material comparison, validation report.
 
 This is the approved `approved-sculpted-glossy-v1` implementation. The public package only changes executable discovery and setup; the fitting and material math are preserved. See [provenance and validation](docs/PROVENANCE.md).
+
+Full implementation map: [tech stack, every processing stage, and every material layer](docs/TECHNICAL-STACK.md).
 
 ## Get started
 

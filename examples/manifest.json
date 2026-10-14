@@ -144,6 +144,50 @@
     }
   },
   {
+    "file": "previews/expressive-original.gif",
+    "bytes": 3860932,
+    "sha256": "d11b01a0a1a41c8754d2cac1b48d4e21ec1e4ffe8e18cc7b58ceb374c9531e9f",
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "gif",
+          "codec_type": "video",
+          "width": 480,
+          "height": 270,
+          "r_frame_rate": "10/1",
+          "nb_frames": "60"
+        }
+      ],
+      "format": {
+        "duration": "6.000000"
+      }
+    }
+  },
+  {
+    "file": "previews/expressive-sirio.gif",
+    "bytes": 3295844,
+    "sha256": "33fcfed51fd89f7c033e27d15087ef2b75a9bd488414073af1b73a9030dc71e0",
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "gif",
+          "codec_type": "video",
+          "width": 480,
+          "height": 270,
+          "r_frame_rate": "10/1",
+          "nb_frames": "60"
+        }
+      ],
+      "format": {
+        "duration": "6.000000"
+      }
+    }
+  },
+  {
     "file": "videos/courtroom-performance.mp4",
     "bytes": 15908277,
     "sha256": "ddf015b77babcece78482de6e607df9fee38661725ce0fcee660e4bd208e33e1",
@@ -224,6 +268,62 @@
       ],
       "format": {
         "duration": "20.900000"
+      }
+    }
+  },
+  {
+    "file": "videos/expressive-original.mp4",
+    "bytes": 20856479,
+    "sha256": "7521caa1e7348f6188c8452a5c13311e4edc340dba0154f0e76f8eda0061777d",
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "hevc",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "r_frame_rate": "30/1",
+          "nb_frames": "644"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "nb_frames": "927"
+        }
+      ],
+      "format": {
+        "duration": "21.466667"
+      }
+    }
+  },
+  {
+    "file": "videos/expressive-sirio.mp4",
+    "bytes": 7192442,
+    "sha256": "210e9fd94ea7f7d56c637355c6be4ce8a0cd765c5ca00d4a3fd07a7dc44139a6",
+    "media": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "codec_type": "video",
+          "width": 854,
+          "height": 480,
+          "r_frame_rate": "24/1",
+          "nb_frames": "529"
+        },
+        {
+          "codec_name": "aac",
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "nb_frames": "691"
+        }
+      ],
+      "format": {
+        "duration": "22.080000"
       }
     }
   }
