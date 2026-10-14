@@ -1,0 +1,76 @@
+{
+  "status": "passed",
+  "test": "Fresh 0.4-second excerpt starting at 8s, normalized as a new input; no reused landmarks, maps or actor identity",
+  "stages": [
+    "prepare + landmark extraction + UV map generation",
+    "SPECTRE inference",
+    "FLAME decode",
+    "constrained fit",
+    "source-detail transfer",
+    "sculpted bump/gloss render",
+    "MP4 + audio validation"
+  ],
+  "runtime": "Original local macOS Python 3.12 environment (not a fresh-install test)",
+  "validation": {
+    "Original-and-sculpted-3D.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1024,
+          "height": 568,
+          "r_frame_rate": "30/1",
+          "duration": "0.400000",
+          "nb_frames": "12"
+        },
+        {
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "0.400000",
+          "nb_frames": "19"
+        }
+      ]
+    },
+    "Sculpted-3D-mask.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 512,
+          "height": 512,
+          "r_frame_rate": "30/1",
+          "duration": "0.400000",
+          "nb_frames": "12"
+        },
+        {
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "0.400000",
+          "nb_frames": "19"
+        }
+      ]
+    },
+    "Detailed-vs-sculpted-3D.mp4": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_type": "video",
+          "width": 1024,
+          "height": 568,
+          "r_frame_rate": "30/1",
+          "duration": "0.400000",
+          "nb_frames": "12"
+        },
+        {
+          "codec_type": "audio",
+          "r_frame_rate": "0/0",
+          "duration": "0.400000",
+          "nb_frames": "19"
+        }
+      ]
+    }
+  }
+}

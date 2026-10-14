@@ -1,0 +1,27 @@
+{
+  "name": "approved-sculpted-glossy-v1",
+  "approved": "2026-10-08",
+  "fps": 30,
+  "face_crop": 512,
+  "landmarks": 478,
+  "skin_clay_mix": 0.84,
+  "protected_feature_clay_mix": 0.1,
+  "light_direction": [
+    -0.6,
+    0.45,
+    0.66
+  ],
+  "ambient": 34,
+  "diffuse_gain": 166,
+  "clearcoat_gain": 58,
+  "clearcoat_exponent": 30,
+  "gloss_gain": 65,
+  "roughness_base": 0.36,
+  "roughness_gloss_reduction": 0.17,
+  "uv_size": 1024,
+  "relief_neutral": 127.5,
+  "source_audio": true,
+  "frame_alignment": "0-based UV filenames; source decoded at30fps; shot boundaries isolate temporal context",
+  "geometry": "SPECTRE/FLAME + 105 feature / 56 outline constrained fit",
+  "note": "Renderer constants recorded for reproducibility; edit scripts/render.py to version a new preset."
+}

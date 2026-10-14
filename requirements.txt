@@ -1,0 +1,12 @@
+# Direct runtime dependencies from the verified local environment.
+# Python 3.12; FFmpeg must also be installed.
+numpy==2.5.3
+scipy==1.18.1
+torch==2.14.1
+torchvision==0.29.1
+mediapipe==1.1.0
+opencv-python==5.0.0.93
+numba==0.68.0
+av==19.0.1
+scikit-image==0.26.0
+chumpy==0.70

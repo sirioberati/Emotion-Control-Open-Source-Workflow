@@ -1,0 +1,15 @@
+# Runtime, licensed models, generated assets, secrets and local runs
+.venv/
+.runtime/
+models/
+assets/
+outputs/
+_work/
+__pycache__/
+*.py[cod]
+*.nbc
+*.nbi
+.env
+.env.*
+.DS_Store
+*.log
