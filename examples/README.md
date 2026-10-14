@@ -11,7 +11,9 @@
 | masks/emotional-mask.mp4 | Approved emotional-reaction mask from the original extraction |
 | previews/courtroom.gif | Full new courtroom clip, looping silently from its beginning |
 | previews/emotional-mask.gif | Ten-second excerpt from 6–16 seconds, showing the transition from a smile into crying |
-| Other previews/*.gif | Silent, looping six-second excerpts beginning at 2 seconds |
+| previews/expressive-original.gif and expressive-mask.gif | Crying section near the end, 16–21.4 seconds |
+| previews/expressive-sirio.gif | Matching late section of the generated result, 16.5–21.9 seconds |
+| previews/emotional.gif | Silent, looping six-second excerpt beginning at 2 seconds |
 
 The mask files preserve the full extracted source performances. The comparison videos are edited demonstrations and can differ in duration/timing from the complete masks. Do not feed comparison layouts into the one-face extraction pipeline.
 

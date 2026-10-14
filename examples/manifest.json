@@ -123,8 +123,8 @@
   },
   {
     "file": "previews/expressive-mask.gif",
-    "bytes": 3926048,
-    "sha256": "a02b8620c10f3a343c3c94cb46af424ad2b023e109aa74778ee7351597986595",
+    "bytes": 3525888,
+    "sha256": "3a71f32101f7c37f49a8305ba53052ac6cbc4f8c27784ebdec450ec47183d562",
     "media": {
       "programs": [],
       "stream_groups": [],
@@ -135,18 +135,18 @@
           "width": 400,
           "height": 400,
           "r_frame_rate": "10/1",
-          "nb_frames": "60"
+          "nb_frames": "54"
         }
       ],
       "format": {
-        "duration": "6.000000"
+        "duration": "5.400000"
       }
     }
   },
   {
     "file": "previews/expressive-original.gif",
-    "bytes": 3860932,
-    "sha256": "d11b01a0a1a41c8754d2cac1b48d4e21ec1e4ffe8e18cc7b58ceb374c9531e9f",
+    "bytes": 3921506,
+    "sha256": "d30d5f4004473528a3a8a938b243d1283cb81f0eba7c6a190d45326d7989c242",
     "media": {
       "programs": [],
       "stream_groups": [],
@@ -157,18 +157,18 @@
           "width": 480,
           "height": 270,
           "r_frame_rate": "10/1",
-          "nb_frames": "60"
+          "nb_frames": "54"
         }
       ],
       "format": {
-        "duration": "6.000000"
+        "duration": "5.400000"
       }
     }
   },
   {
     "file": "previews/expressive-sirio.gif",
-    "bytes": 3295844,
-    "sha256": "33fcfed51fd89f7c033e27d15087ef2b75a9bd488414073af1b73a9030dc71e0",
+    "bytes": 2942408,
+    "sha256": "48b87aeda3fc52aae6a4905b462a34466683fd56b702ece809c0ae469d8c4026",
     "media": {
       "programs": [],
       "stream_groups": [],
@@ -179,11 +179,11 @@
           "width": 480,
           "height": 270,
           "r_frame_rate": "10/1",
-          "nb_frames": "60"
+          "nb_frames": "54"
         }
       ],
       "format": {
-        "duration": "6.000000"
+        "duration": "5.400000"
       }
     }
   },

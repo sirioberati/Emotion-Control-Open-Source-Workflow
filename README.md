@@ -31,7 +31,7 @@ Two actual extracted masks: the smiling-man performance and the emotional-reacti
 
 ### Expressive performance — original → mask → Sirio
 
-The matching original is the source recorded in this mask's run manifest. The generated result is the supplied Seedance video.
+The matching original is the source recorded in this mask's run manifest. The generated result is the supplied Seedance video. These previews show the crying section near the end of the performance.
 
 **Original performance**
 
