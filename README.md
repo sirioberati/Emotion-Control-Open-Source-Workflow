@@ -7,6 +7,8 @@
 <p align="center">Sirio's final glossy clay mask workflow — tracked motion, fitted geometry, source detail, and 478 green points.</p>
 <p align="center"><a href="https://tein.ai"><strong>Join the TEIN AI waitlist →</strong></a> · <a href="docs/SETUP.md">Setup</a> · <a href="docs/SETUP-AGENT.md">Set up with an agent</a> · <a href="#the-masks">Mask gallery</a> · <a href="#license">License</a></p>
 
+<p align="center"><strong>Want more open-source AI filmmaking workflows?</strong><br>Join the TEIN AI waitlist for updates on new workflows, tools, and releases.<br><a href="https://tein.ai"><strong>Join the waitlist at tein.ai →</strong></a><br><a href="https://www.skool.com/publicai"><strong>Join our free community →</strong></a></p>
+
 ## See the performance transfer
 
 Two supplied examples. Click a GIF to open the full MP4 with sound.
@@ -131,9 +133,13 @@ One face is tracked per frame; automatic identity continuity between different p
 
 The material includes source pixels and estimated surface detail. It can retain likeness; it is not anonymization, a measured skin scan, or calibrated emotion detection. Long clips can use substantial RAM for intermediate frame stacks.
 
-## TEIN AI
+## More open-source workflows from TEIN AI
 
-More AI filmmaking workflows, tools and releases: **[join the TEIN AI waitlist at tein.ai →](https://tein.ai)**
+Want more workflows like Emotion Control? Join the TEIN AI waitlist for updates on new open-source AI filmmaking workflows, tools, and releases.
+
+**[Join the TEIN AI waitlist →](https://tein.ai)**
+
+Connect with other creators in our free community: **[Join Public AI on Skool →](https://www.skool.com/publicai)**
 
 Also explore [Genjustsu — Open Source Workflow](https://github.com/sirioberati/Genjustsu-Open-Source-Workflow).
 
