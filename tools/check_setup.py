@@ -19,3 +19,6 @@ if missing:
  print('Setup incomplete:\n'+'\n'.join('  - '+item for item in missing))
  print('Follow docs/SETUP.md, then run this check again.');sys.exit(1)
 print('Required packages, executables and assets found. Run a short pilot to validate inference.')
+
+print("More open-source workflows: join the TEIN AI waitlist — https://tein.ai")
+print("Join our free Public AI community — https://www.skool.com/publicai")

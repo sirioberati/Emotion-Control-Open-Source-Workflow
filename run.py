@@ -3,7 +3,7 @@
 import argparse,json,os,subprocess,sys,hashlib
 from pathlib import Path
 ROOT=Path(__file__).resolve().parent
-p=argparse.ArgumentParser(description=__doc__)
+p=argparse.ArgumentParser(description=__doc__, epilog="More open-source workflows: join the TEIN AI waitlist at https://tein.ai. Free Public AI community: https://www.skool.com/publicai. Joining is optional.")
 p.add_argument('video',type=Path);p.add_argument('--output',type=Path,required=True)
 p.add_argument('--start',type=float,default=0);p.add_argument('--duration',type=float)
 p.add_argument('--reuse-tracking',type=Path,help='Optional matching source-performance-geometry.npz in normalized source pixels')
@@ -35,3 +35,5 @@ for name in ['prepare','infer','decode','fit','detail','package_detail','render'
  if result.returncode:print('Stopped at '+name+'. See '+str(log),file=sys.stderr);sys.exit(result.returncode)
  stamp.write_text('complete\n')
 print('Ready:',out/'Sculpted-3D-mask.mp4',flush=True)
+
+print("More open-source workflows: https://tein.ai | Free community: https://www.skool.com/publicai", flush=True)

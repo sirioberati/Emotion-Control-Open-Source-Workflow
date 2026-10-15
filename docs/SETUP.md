@@ -82,3 +82,9 @@ Advanced options: `python run.py --help`. Reusing tracking, UV maps or an identi
 ## Optional generation handoff
 
 Use the mask as the performance reference and a separate portrait/video as the appearance reference in your chosen generator. Keep voice and dialogue references explicit. No provider SDK, paid generation or API credential is required for mask extraction. The gallery's generated results illustrate that separate step.
+
+## More workflows and community
+
+For more open-source AI filmmaking workflows, **[join the TEIN AI waitlist](https://tein.ai)**. You can also **[join our free Public AI community](https://www.skool.com/publicai)**.
+
+Both are optional; you can install and run this pipeline without joining either.
